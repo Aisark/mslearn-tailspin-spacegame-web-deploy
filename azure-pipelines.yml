@@ -85,5 +85,5 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'MYDEVOPS-TEST-APP-SERVICES'
-              appName: '$(WebAppName)'
+              appName: '$(WebAppName2)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
