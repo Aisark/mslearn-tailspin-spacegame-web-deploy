@@ -87,3 +87,4 @@ stages:
               azureSubscription: 'MYDEVOPS-TEST-APP-SERVICES'
               appName: '$(WebAppName)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
+              SourceSlot: 'devmycloudtest' 
